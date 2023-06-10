@@ -1,0 +1,75 @@
+.main .wrap .last {
+    background: linear-gradient(0deg, rgba(248, 179, 0, 0.7), rgba(248, 179, 0, 0.7)), url(../images/fondDivMenu.png);
+    border-radius: 10px;
+    width: 1256px;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .wrap .last h2 {
+    display: flex;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 42px 0px 0px 33px;
+}
+
+.main .wrap .last div {
+    display: flex;
+    justify-content: center;
+}
+
+.main .wrap .last div .article {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 25px 17px 45px 17px;
+}
+
+.main .wrap .last div .article h2 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 32px;
+    color: #313C8C;
+    line-height: 43px;
+    margin: 25px 12px 26px 12px;
+}
+
+.main .wrap .last div .article p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #000000;
+    line-height: 21px;
+    margin: 0px 26px 8px 18px;
+}
+
+.main .wrap .last div .article img {
+    width: 332px;
+    margin: 0px 0px 20px 18px;
+}
+
+.main .wrap .last div .article button {
+    display: flex;
+    background-color: #F8B300;
+    border: none;
+    border-radius: 50px;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 12px;
+    margin: auto;
+    margin-bottom: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.main .wrap .last div .article button:hover {
+    background-color: #313C8C;
+    color: #FFFFFF;
+}

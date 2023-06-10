@@ -1,0 +1,77 @@
+footer .foot-top{
+    margin-top: 100px;
+}
+
+footer .wrap {
+    max-width: 900px;
+}
+
+footer .foot-top {
+    background-color: #F0F1FF;
+}
+
+footer .foot-top .wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-top .wrap .liens .liste {
+    display: flex;
+    gap: 60px;
+    padding-left: 2px;
+    margin-bottom: 35px;;
+}
+
+footer .foot-top .wrap .liens .nom-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .foot-top .wrap .liens .nom-nav h4 {
+    margin-bottom: 22px;
+}
+
+footer .foot-top .wrap .liens .nom-nav li {
+    margin-bottom: 14px;
+}
+
+
+footer .foot-bot {
+    background-color: #313C8C;
+}
+
+footer .foot-bot .wrap p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 16px 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h3 {
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin: 36px 0px 23px 0px;
+}
+
+footer h4 a {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 600;
+    color: #6973F0;
+}
+
+footer li a {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6973F0;
+}

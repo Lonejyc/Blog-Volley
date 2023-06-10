@@ -1,0 +1,123 @@
+.main .wrap .last {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 1256px;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .wrap .last div {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.main .wrap .last .left {
+    margin: 50px 0px 50px 60px;
+}
+
+.main .wrap .last .right {
+    margin: 50px 0px 50px 296px;
+}
+
+.main .wrap .last div h2 {
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 700;
+    color: #313C8C;
+}
+
+.main .wrap .last div p {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 25px 0px 60px 0px;
+}
+
+.main .wrap .last div p span {
+    font-weight: 700;
+}
+
+.main .wrap .last .left p {
+    text-align: left;
+}
+
+.main .wrap .last .right p {
+    text-align: right;
+}
+
+.main .wrap .last div .link {
+    display: flex;
+    align-items: center;
+}
+
+.main .wrap .last .left .link {
+    flex-direction: row;
+}
+
+.main .wrap .last .right .link {
+    flex-direction: row-reverse;
+}
+
+.main .wrap .last div .link .text {
+    width: fit-content;
+}
+
+.main .wrap .last div .link .text p {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 0px;
+}
+
+.main .wrap .last .left .link .text p  {
+    text-align: right;
+}
+
+.main .wrap .last .right .link .text p  {
+    text-align: left;
+}
+
+.main .wrap .last button {
+    height: 48px;
+    padding: 5px 26px;
+    font-family: 'Nunito';
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #6973F0;
+    border: none;
+    border-radius: 18px;
+    margin: 0px 80px 0px 80px;
+    transition: 0.3s ease-in-out;
+}
+
+.main .wrap .last button:hover {
+    background-color: #F8B300;
+}
+
+.main .wrap .last .whoami {
+    margin: 50px 0px 50px 50px;
+}
+
+.main .wrap .last .whoami h2 {
+    width: 100%;
+}
+
+.whoami img {
+    width: 30%;
+    border-radius: 35px;
+    margin: 60px auto 0px auto;
+}
+
+.main .wrap .last .whoami p {
+    margin: 50px 0px 0px 20px;
+}
+
+.main .wrap .last a {
+    color: #313C8C;
+    font-weight: 600;
+}

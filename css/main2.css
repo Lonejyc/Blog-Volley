@@ -1,0 +1,107 @@
+.main .wrap .last {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 1256px;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .wrap .last h2 {
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 700;
+    color: #313C8C;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.main .wrap .last img {
+    width: 30%;
+    margin: 50px auto;
+}
+
+.main .wrap .last p {
+    font-family: 'Nunito';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main .wrap .last .bot {
+    margin-bottom: 100px;
+}
+
+.main .wrap .articles {
+    margin: 6% 0% 0% 3%;
+}
+
+.main .wrap .articles h2 {
+    display: flex;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 42px 0px 0px 40px;
+}
+
+.main .wrap .articles div {
+    display: flex;
+    justify-content: left;
+}
+
+.main .wrap .articles div .article {
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(248, 179, 0, 0.9), rgba(248, 179, 0, 0.9)), url(../images/sport.png);
+    margin: 25px 17px 45px 17px;
+}
+
+.main .wrap .articles div .article h2 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 32px;
+    color: #313C8C;
+    line-height: 43px;
+    margin: 25px 18px 26px 18px;
+}
+
+.main .wrap .articles div .article p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #000000;
+    line-height: 21px;
+    margin: 0px 24px 8px 24px;
+}
+
+.main .wrap .articles div .article img {
+    width: 460px;
+    margin: 20px 24px 25px 24px;
+}
+
+.main .wrap .articles div .article button {
+    display: flex;
+    background-color: #D4D7FD;
+    border: none;
+    border-radius: 50px;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 12px;
+    margin: auto;
+    margin-bottom: 22px;
+    transition: 0.3s ease-in-out;
+}
+
+.main .wrap .articles div .article button:hover {
+    background-color: #313C8C;
+    color: #FFFFFF;
+}

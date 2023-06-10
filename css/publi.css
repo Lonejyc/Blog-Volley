@@ -1,0 +1,74 @@
+.main .wrap .last {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 1256px;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .wrap .last h2 {
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 700;
+    color: #313C8C;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main .wrap .last div img {
+    width: 50%;
+    display: flex;
+    margin: 20px auto 40px;
+    border-radius: 25px;
+}
+
+.main .wrap .last p {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0px 100px 0px 100px;
+}
+
+.main .wrap .last .txt {
+    margin-bottom: 50px;
+}
+
+.main .wrap .last p span {
+    font-family: 'Nunito';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-left: 5px;
+    text-align: left;
+    color: #313C8C;
+}
+
+.main .wrap .last .chapo {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.main .wrap .last .conclusion {
+    margin: 20px 0px 70px 0px;
+    font-weight: 400;
+}
+
+.main .wrap .last .bot {
+    margin-bottom: 100px;
+}
+
+.main .wrap .last p a {
+    text-decoration: underline;
+    color: #313C8C;
+    font-weight: 600;
+}

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Brush Script MT";
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/BRUSHSCI.TTF") format('truetype');
+}
+
+header .head-top {
+    padding: 0px 24px;
+}
+
+header .head-top .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: #FFFCF3;
+}
+
+header .head-top .wrap .logo {
+    display: flex;
+    width: 258px;
+    height: 98px;
+}
+
+header .head-top .wrap .logo img {
+    width: 80px;
+}
+
+header .head-top .wrap .logo h1 {
+    display: flex;
+    font-family: "Brush Script MT";
+    font-size: 40px;
+    margin-left: 15px;
+    color: #313C8C;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    align-items: center;
+}
+
+header .head-top .wrap .nav-princip ul {
+    display: flex;
+    gap: 32px;
+    margin-top: 26px;
+    margin-right: 70px;
+}
+
+header .head-top .wrap .nav-princip ul li {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+header .head-top .wrap .nav-princip ul li a {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+header .head-top .wrap .nav-princip ul li .hover {
+    width: 70%;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    translate: -125% 0;
+    transition: translate 0.4s ease-in-out;
+}
+
+header .head-top .wrap .nav-princip ul li:hover .hover {
+    translate: 0 0;
+}
+
+header .head-top .wrap a img {
+    width: 100%;
+}
+
+header .head-bot {
+    background-color: #F0F1FF;
+    height: 75px;
+}
+
+header .head-bot .wrap .fil-arianne ul {
+    display: flex;
+    padding: 27px 0px 26px 50px;
+}
+
+header .head-bot .wrap .fil-arianne ul li a {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 5px;
+}
+
+header .head-bot .wrap .fil-arianne ul li span a {
+    font-weight: 700;
+    color: #313C8C;
+}
